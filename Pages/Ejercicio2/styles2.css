@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: #F9E79F;
+}
+
+table{
+    background-color:#F4F6F7;
+    border: 1px solid #E67E22;
+    padding: 2rem;
+}
+
+.contenedorTabla{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&display=swap');
+
+
+body{
+    font-family: "Playfair Display", serif;
+    background-color: #F4D7FF;
+}
+
+h1{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.contenedorTexto{
+    display: flex;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 2rem;
+    background-color: #F2F3F4;
+    border:1px solid #633974;
+    border-radius: 10px;
+    width: 90%;
+    height: 5%;
+    text-align: justify;
+    font-size: 20px;
+}
