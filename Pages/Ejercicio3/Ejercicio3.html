@@ -1,18 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Vanessa Sánchez">
+    <link rel="icon" href="/Ejercicios-Talento-Tech/Assets/Images/table.png" type="favicon">
+    <link rel="stylesheet" href="../Ejercicio3/styles3.css" />
     <title>Formulario</title>
-</head>
-<body>
-    <div>
-        <form>
-            <label for="Nombre">Nombre completo:</label>
-            <input type="text" id="Nombre" name="Nombre" placeholder="Digite su nombre">
 
-        </form>
+    <!-- Formulario basico: Crea un formulario de registro con campos para nombre y 
+        email. Incluye una etiqueta para cada campo y un botón de envío. -->
+  </head>
+  <body>
+    <div class="contenedorForm">
+      <form>
+        <h1>Formulario Básico</h1>
+        <label for="Nombre">Nombre completo:</label>
+        <br />
+        <input
+          type="text"
+          id="Nombre"
+          name="Nombre"
+          placeholder="Digite su nombre"
+        />
+        <br />
+        <br />
+        <label for="Email">E-mail:</label>
+        <br />
+        <input
+          type="email"
+          id="Nombre"
+          name="Email"
+          placeholder="Digite su correo electrónico"
+        />
+        <br />
+        <br />
+        <div class="contenedorBoton">
+          <button>Enviar</button>
+        </div>
+      </form>
     </div>
-    
-</body>
+  </body>
 </html>
